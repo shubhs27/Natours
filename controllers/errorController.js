@@ -7,7 +7,6 @@ const handleCastErrorDB = (err) => {
 
 const handleDuplicateFieldsDB = (err) => {
   const value = err.message.match(/"(.*?)"/)[1];
-  //   console.log(value);
 
   //   const match = err.message.match(/"(.*?)"/);
   //   const value = match ? match[1] : 'Unknown'; // Prevents crash if match is null
