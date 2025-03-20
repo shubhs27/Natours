@@ -1323,3 +1323,21 @@ body {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
 }
+.form__text {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.form__link {
+  color: #55c57a;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.form__link:hover {
+  color: #28a745;
+  text-decoration: underline;
+}

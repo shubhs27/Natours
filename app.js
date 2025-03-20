@@ -56,7 +56,7 @@ app.use(
           "'self'",
           'https://cdnjs.cloudflare.com', // ✅ Allow Axios network requests
           'https://js.stripe.com', // ✅ Allow Stripe network requests
-          'ws://127.0.0.1:50056', // ✅ Allow WebSocket connections
+          'ws://127.0.0.1:*', // 🔥 Allow ALL WebSocket ports on localhost
         ],
         frameSrc: [
           "'self'",
