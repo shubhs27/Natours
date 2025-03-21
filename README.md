@@ -1,20 +1,6 @@
-# Natours - Tour Booking API
+# Natours
 
-<p align="center">
-  <a href="https://natours-shubhanan.onrender.com/">
-    <img src="https://github.com/shubhs27/Natours/blob/master/public/img/logo-green-round.png" alt="Natours Logo" width="200">
-  </a>
-</p>
-
-<h1 align="center">
-  <br>
-  <img src="https://github.com/shubhs27/Natours/blob/master/public/img/logo-green-round.png" alt="Natours" width="200">
-  <br>
-  Natours
-  <br>
-</h1>
-
-<h4 align="center">A dynamic tour booking platform built with NodeJS, Express, and MongoDB.</h4>
+A dynamic tour booking platform built with NodeJS, Express, and MongoDB. It delivers a seamless travel planning experience with secure authentication, advanced tour filtering, interactive maps, and streamlined booking processes. Explore the power of modern web technologies in this production-ready API.
 
 ## Live Demo
 
@@ -42,7 +28,7 @@ Experience Natours live: [Natours Live Demo](https://natours-shubhanan.onrender.
 
 ### Tour Details
 
-![Tour Details](screenshots/Tour.mov)
+![Tour Details](screenshots/Tour.gif)
 
 ### Payment Gateway
 
@@ -140,6 +126,15 @@ POST /api/v1/users/signup - Create new user
 POST /api/v1/users/login - Login user
 ```
 
+### Authentication
+
+All protected routes require a **Bearer Token** obtained after logging in:
+
+1. **Sign up or log in** to receive a token.
+2. Include the token in the `Authorization` header for protected routes.
+
+Authorization: Bearer <your_token>
+
 For complete API documentation, visit: [Natours API Documentation](https://documenter.getpostman.com/view/41999888/2sAYdeNY3G)
 
 ## Future Enhancements
@@ -162,3 +157,7 @@ This project is licensed under the MIT License.
 ---
 
 Feel free to modify and enhance this project as needed!
+
+```
+
+```
