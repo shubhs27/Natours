@@ -106,7 +106,7 @@ Experience Natours live: [Natours Live Demo](https://natours-shubhanan.onrender.
 
    **For production:**
 
-   ```
+   ```sh
     npm run build:js
     npm run start:prod
    ```
@@ -133,7 +133,9 @@ All protected routes require a **Bearer Token** obtained after logging in:
 1. **Sign up or log in** to receive a token.
 2. Include the token in the `Authorization` header for protected routes.
 
+```sh
 Authorization: Bearer <your_token>
+```
 
 For complete API documentation, visit: [Natours API Documentation](https://documenter.getpostman.com/view/41999888/2sAYdeNY3G)
 
@@ -157,7 +159,3 @@ This project is licensed under the MIT License.
 ---
 
 Feel free to modify and enhance this project as needed!
-
-```
-
-```
